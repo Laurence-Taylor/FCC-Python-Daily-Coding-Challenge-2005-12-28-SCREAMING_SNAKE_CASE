@@ -14,7 +14,7 @@ def to_screaming_snake_case(variable_name):
         if i == len_variable_name-1:
             string_to_return += variable_name[pos:len_variable_name].upper()
     print(string_to_return)
-    return variable_name
+    return string_to_return
 
 if __name__ == '__main__':
     print(to_screaming_snake_case("userEmail"))
